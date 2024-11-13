@@ -14,34 +14,44 @@ const ListaJogo = () => {
       </div>
       <div className='meio'>
           <div className='meioEsquerdo'>
-
           </div>
               <div className='meioCentral'>
-                <div className='topoMeio'>
-
-                <div className='topoCentralMeioEsquerdo'>
+                    <div className='topoMeio'>
+                    <div className='topoCentralMeioEsquerdo'>
                     <div className="icon-button">
-                      <FiArrowLeft className="icon" />
+                    <FiArrowLeft className="icon" />
                     </div>
-                </div>
-                <div className='topoCentralMeioLOGO'>
+                    </div>
+                    <div className='topoCentralMeioLOGO'>
                     <Logo/>
-                </div>
-                <div className='topoCentralMeioDireito'>
+                    </div>
+                    <div className='topoCentralMeioDireito'>
                     <button className='botaoAddParticipante'>Adicionar Participante</button>
-                </div>
-              </div>
-            <div className='meioMeio'>
-                <button className='botaoAddParticipante' >Buscar Participante</button>
-            </div>
-            <div className='meioBaixo'>
-              
-            </div>
-            </div>
-           <div className='meioDireita'>
-
-            </div>
-      </div>
+                    </div>
+                    </div>
+                              <div className='meioMeio'>
+                              <button className='botaoAddParticipante' >Buscar Participante</button>
+                              </div>
+                                      <div className='meioBaixo'>
+                                        <div className='divDados'>
+                                          <label  className='labeldoJogador1'>Nome</label>
+                                          <label  className='labeldoJogador2'>Função</label>
+                                          <label  className='labeldoJogador3'>Comprovante</label>
+                                          <label  className='labeldoJogador4'>Hierarquia</label>
+                                          <label  className='labeldoJogador5'></label>
+                                        </div>
+                                        <div className='Dados'>
+                                          <div className='lacunas1'></div>
+                                          <div className='lacunas2'></div>
+                                          <div className='lacunas3'></div>
+                                          <div className='lacunas4'></div>
+                                          <div className='lacunas5'></div>
+                                        </div>
+                                      </div>
+               </div>
+                        <div className='meioDireita'>
+                        </div>
+        </div>
       <div className='baixo'>
 
       </div>
