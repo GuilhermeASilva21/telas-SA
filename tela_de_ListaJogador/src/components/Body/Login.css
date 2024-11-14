@@ -11,7 +11,7 @@
   display: flex;
   width: 100%;
   height: 80%;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(41, 41, 41);
 }
 .meioEsquerdo{
   width: 5%;
@@ -34,7 +34,6 @@
   display: flex;
   width: 100%;
   height: 30%;
-  background-color: aqua;
 }
 .topoCentralMeioEsquerdo{
   padding-left: 15px;
@@ -59,11 +58,22 @@
   height: 25%;
 }
 .botaoAddParticipante{
-  width: 180px;
-  height: 50px;
+  width: 190px;
+  height: 40px;
+  font-size: 16px;
   background-color: #00FF00;
   cursor: pointer;
   border-radius: 6px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.botaoPesquisaParticipante{
+  width: 190px;
+  height: 40px;
+  font-size: 16px;
+
+  background-color: rgb(54, 54, 54);
+  cursor: pointer;
   border: 2px solid #ffffff;
   color: #ffffff;
 }
@@ -73,12 +83,10 @@
   padding-left: 20px;
   width: 100%;
   height: 7%;
-  background-color: blueviolet;
 }
 .meioBaixo{
-  background-color: rgb(13, 14, 13);
   width: 100%;
-  height: 10%;
+  height: 12%;
 }
 
 .baixo{
@@ -108,19 +116,15 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 25%;
-  background-color: rgb(83, 83, 83);
+  height: 30%;
 
 }
 .Dados{
   border-bottom: 2px solid #00FF00 ;
-
-
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 75%;
-  background-color: rgb(78, 74, 74);
+  height: 70%;
 }
 .labeldoJogador1{
 
@@ -156,22 +160,59 @@
   height: 100%;
 }
 .lacunas1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19%;
   height: 100%;
 }
 .lacunas2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19%;
   height: 100%;
 }
 .lacunas3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19%;
   height: 100%;
 }
 .lacunas4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 19%;
   height: 100%;
 }
 .lacunas5{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 25%;
   height: 100%;
+
+}
+.botaoExcluir{
+  color: black;
+  background-color: #ff0000;
+  border-radius: 5px;
+  width: 85px;
+  height: 40px;
+}
+.botaoEditar{
+  color: #ffffff;
+  background-color: #00FF00;
+  border-radius: 5px;
+  width: 85px;
+  height: 40px;
+}
+.lapis{
+  width: 20px;
+}
+.lupa{
+  width: 20px;
+  padding-left: 10px;
 }

@@ -30,7 +30,9 @@ const ListaJogo = () => {
                     </div>
                     </div>
                               <div className='meioMeio'>
-                              <button className='botaoAddParticipante' >Buscar Participante</button>
+
+                              <button className='botaoPesquisaParticipante' >Buscar Participante</button>
+                              <img className='lupa' src="./imagens/lupa.png"/>
                               </div>
                                       <div className='meioBaixo'>
                                         <div className='divDados'>
@@ -41,11 +43,27 @@ const ListaJogo = () => {
                                           <label  className='labeldoJogador5'></label>
                                         </div>
                                         <div className='Dados'>
-                                          <div className='lacunas1'></div>
-                                          <div className='lacunas2'></div>
-                                          <div className='lacunas3'></div>
-                                          <div className='lacunas4'></div>
-                                          <div className='lacunas5'></div>
+                                          <div className='lacunas1'>
+                                            <label >fulano</label>
+                                          </div>
+                                          <div className='lacunas2'>
+                                          <label >goleiro</label>
+                                          </div>
+                                          <div className='lacunas3'>
+                                          <label >comprovante</label>
+                                          </div>
+                                          <div className='lacunas4'>
+                                          <label >Organizador</label>
+
+                                          </div>
+                                          <div className='lacunas5'>
+                                            <button className='botaoEditar'>
+                                              <img className='lapis' src="./imagens/ferramenta-lapis.png"/>
+                                            </button>
+                                            <button className='botaoExcluir'>
+                                            <img className='lapis' src="./imagens/lixeira.png"/>
+                                            </button>
+                                          </div>
                                         </div>
                                       </div>
                </div>
