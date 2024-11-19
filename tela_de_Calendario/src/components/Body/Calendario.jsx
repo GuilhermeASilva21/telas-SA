@@ -10,17 +10,24 @@ const Calendario = () => {
   return (
     <div className="container-master">
       <div className='topo'>
-        
+        <div className='esquerdaTopo'>
+        </div>
+        <div className='direitaTopo'>
+        </div>
+        <div className='cantinhoDoPerfil'>
+        <img className='iconPerfil' src="./imagens/usuario-de-perfil.png"/>
+        </div>
       </div>
       <div className='meio'>
           <div className='meioEsquerdo'>
+            <Logo/>
           </div>
               <div className='meioCentral'>
               <div className='meioTopo'>
 
-              <FiArrowLeft className="logo" />
+              <FiArrowLeft className="seta" />
               <label className='calendario'>Janeiro 2025</label>
-              <FiArrowRight className="logo" />
+              <FiArrowRight className="seta" />
               </div>
               <div className='meioCalendario'>
                 <div className='parte1'>
