@@ -1,19 +1,31 @@
 .container-master{
-  background-color: rgb(65, 64, 64);
+  background-color: #1E1E1E;
   width: 100%;
   height: 100vh;
 }
 .topo{
   width: 100%;
-  height: 18%;
-  background-color: rgb(104, 170, 38);
+  height: 20%;
+  background-color: black;
   display: flex;
+}
+.seta{
+  width: 50px;
+  height: 50px;
+}
+.topoSeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: 100%;
+   
 }
 .topoLogo{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
+  width: 15%;
   height: 100%;
 }
 .topoTitulo{
@@ -70,7 +82,7 @@
   align-items: center;
   width: 100%;
   height: 25%;
-  border-bottom: 2px solid #09a509;
+  border-bottom: 2px solid #00a106;
 }
 .Divbotao{
   gap: 2;
@@ -83,7 +95,7 @@
 .botao{
   width: 80px;
   height: 35px;
-  background-color: #09a509;
+  background-color: #00a106;
   color: #ffffff;
   border: solid 1.5px;
   border-radius: 2px;
@@ -114,7 +126,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;
@@ -124,7 +136,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;
@@ -134,7 +146,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;
@@ -144,7 +156,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;
@@ -154,7 +166,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;
@@ -164,7 +176,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid greenyellow;
+  border: 2px solid #00a106;
   display: flex;
   width: 20%;
   height: 80%;

@@ -1,6 +1,5 @@
 import React from 'react';
 import './HorasPartida.css';
-import { FiArrowLeft, FiArrowRight} from 'react-icons/fi';
 import Logo from '../Logo/Logo';
 const HorasPartida = () => {
 
@@ -10,11 +9,14 @@ const HorasPartida = () => {
   return (
     <div className="container-master">
       <div className='topo'>
-        <div className='topoLogo'>
-          <Logo/>
+        <div className='topoSeta'>
+          <img className='seta' src="./imagens/seta-esquerda.png"/>
         </div>
         <div className='topoTitulo'>
           <label className='topoLabel'>FUT AGENDA</label>
+        </div>
+        <div className='topoLogo'>
+          <Logo/>
         </div>
         
       </div>
